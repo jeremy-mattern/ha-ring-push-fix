@@ -1,0 +1,14 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ring Push Fix",
+        "description": "Temporarily patches the push client Ring uses so live doorbell and motion events reach Home Assistant again (firebase-messaging 'Incorrect padding' bug). Ring will be reloaded once. Remove this integration after Home Assistant ships the official fix."
+      }
+    },
+    "abort": {
+      "already_configured": "Ring Push Fix is already installed.",
+      "single_instance_allowed": "Ring Push Fix is already installed."
+    }
+  }
+}
